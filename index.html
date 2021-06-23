@@ -10,22 +10,20 @@
 
     <title>Hello, world!</title>
   </head>
-  <header>
-<div class="bg-warning py-2"> 
- Some top header info 
-</div>
-
-<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary">
- <div class="container">
+  <header >
+<nav style="background-color: whitesmoke;" id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-primary" >
+ <div class="container" style="background-color: whitesmoke;" >
  	 <a class="navbar-brand" href="#">Brand</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
       <span class="navbar-toggler-icon"></span>
     </button>
   <div class="collapse navbar-collapse" id="main_nav">
 	<ul class="navbar-nav ms-auto">
-		<li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-		<li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
-    <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+		<li class="nav-item"><a class="nav-link" href= "#1"> Lifestyle </a></li>
+		<li class="nav-item"><a class="nav-link" href="#2"> Photography</a></li>
+    <li class="nav-item"><a class="nav-link" href="#3"> Music </a></li>
+    <li class="nav-item"><a class="nav-link" href="#4"> Travel </a></li>
+
 	</ul>
   </div> <!-- navbar-collapse.// -->
  </div> <!-- container-fluid.// -->
@@ -33,10 +31,56 @@
 </header>
 
   <body>
-    <h1>Hello, world!</h1>
+    <h1 id="1">The perfect weekend getaway</h1>
+<p>The perfect weekend getaway
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+  sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+  quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+  quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+  porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+  velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+  magnam aliquam quaerat voluptatem.</P>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
+  <div class="row">
+    <div class="col"><img src="data:image/jpeg;base64,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">
+    <h6 id="2">Lifestlye</h6>
+    <h3>More than just a music festival</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris</p>
+    </div>
+    <div class="col" id="3"><img src="data:image/jpeg;base64,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">
+    <h6>Lifestyle</h6>
+    <h3>Life tastes better with coffee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris</p>
+    </div>
+    <div class="w-100"></div>
+    <div class="col"><img src="data:image/jpeg;base64,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">
+      <h6>Photodiary</h6>
+      <h3>American Dream</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris</p>
+    </div>
+    <div class="col" id="4"><img src="data:image/jpeg;base64,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">
+      <h6>Photodiary</h6>
+      <h3>A day exploring the Alps</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris</p>
+    </div>
+  </div>
+  <footer style="background-color:#e6e6e6">
+   <center> <h1>Sign up for our Newsletter!</h1></center>
+  </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
